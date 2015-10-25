@@ -59,4 +59,20 @@ the commands used for the compilation of the files and generation of the executa
 
 
 
-#1.3 Forking and cloning Reflection
+#1.4 Forking and cloning Reflection
+**If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?**
+
+*on your browser
+-create a Github account in github.com and choose a USERNAME
+-to create a new repository, go to github.com/[USERNAME], then click on "Repositories", then click on the "New" button.
+-to fork a repository, go to an existing Github repository
+-click on the fork button on the top-right of the interface. You will be redirected to your local coppy of this repository (github.com/[USERNAME]/[NAME OF THE FORKED REPOSITORY])
+-copy the fork adress on "clone url"
+*locally into your command line
+-go to the directory where you want to create your clone
+-type "git clone [THE CLONE URL YOU HAVE COPIED BEFORE]" on you command line
+-type "ls" to see if the clone has been created
+
+**What struggles did you have setting up git and GitHub? What did you learn in the process?**
+I work in windows with a Virtual Machine, so this adds extra steps to the process oand as I was very late when I started my windows setups on the week 0, I did not take the time I neede to understand how the Virtual Machine worked and the relationship beetween the differente directories. 
+In the process I had to go back to the tasks I performed on week 0 for my setup and understood that during those setups I´ve already created a clone locally of the phase-0-box repository. It's silly but I was pretty happy when I realized that little detail even if I don´t understand yet all the details of the setup I have performed on week 0 and I fell frustrated with that.
